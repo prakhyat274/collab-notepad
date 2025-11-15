@@ -1,7 +1,11 @@
+import Tiptap from "./components/TipTap";
+
 function App() {
   return (
     <div style={{ padding: 20 }}>
-      <h1>Collab Notepad - Module 1</h1>
+      <div className="card">
+        <Tiptap />
+      </div>
     </div>
   );
 }
